@@ -1,0 +1,68 @@
+body{
+    background-image: url(https://thumbs.dreamstime.com/b/construction-light-purple-background-white-spots-felt-fabric-closeup-texture-orchid-woolen-matt-textile-cloth-violet-139259438.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.memories{
+    width: 100%;
+    height: 450px;
+
+}
+.photo, .description {
+    position: relative;
+    width: 50%; /* Each section takes up 50% of the memory container width */
+    box-sizing: border-box; /* Ensures padding and border are included in the width */
+}
+.photo img {
+    width: 100%; /* Ensure the image fills its container */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px 0 0 8px; /* Optional: rounded corners for the image */
+}
+.memory{
+    display: flex;
+    margin: 6px;
+    padding: 6px;
+    margin-bottom: 10%;
+
+}
+
+.description{
+    font-size: 30px;
+    color: rgb(56, 4, 4);
+    font-weight: bold;
+    font-family: "Oswald", sans-serif;
+    
+    margin: 6px;
+    padding: 6px;
+    width: 50%;
+    margin-left: 10%;
+
+}
+#spectrum{
+    width: 30%;
+    height: 50%;
+}
+.end{
+    font-size: 55px;
+    text-align: center;
+    font-family: "PT Sans", sans-serif;
+    font-style: italic;
+    color: rgb(17, 2, 46);
+    font-weight: bold;
+}
+
+
+
+
+
+
+/* Optional: Responsive design to stack image and description on smaller screens */
+@media (max-width: 768px) {
+    .memory {
+        flex-direction: column; /* Stack items vertically */
+    }
+    .photo, .description {
+        width: 100%; /* Full width for stacked items */
+    }
+}
+

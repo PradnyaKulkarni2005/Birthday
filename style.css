@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital@1&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Bodoni Moda', serif;
+}
+body{
+    padding: 30px;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/030/205/727/non_2x/birthday-background-flat-lay-pink-gift-box-balloons-and-confetti-on-the-table-free-photo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container img{
+    position: relative;
+    left: 45%;
+    margin-top: 30px;
+    border-radius: 14px;
+    
+}
+.main{
+    font-size: 40px;
+    color: rgb(79, 7, 7);
+    font-weight: bold;
+    text-decoration: none;
+    font-family:'Times New Roman', Times, serif;
+    background-color: rgb(225, 149, 203);
+
+}
+#unique{
+    position: relative;
+    left: 150px;
+    top: 70px;
+
+}
+#united{
+    position: relative;
+    left: 238px;
+    top: 10%;
+}
